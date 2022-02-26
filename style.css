@@ -46,16 +46,16 @@ body{
     padding: 5em 4em;
     background: #fff;
     box-shadow: 2px 9px 49px -17px rgba(0,0,0,0.1);
-    border-top-left-radius: 8px; 
-    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px; 
+    border-bottom-right-radius: 8px;
 }
 .form-image{
     flex-basis: 50%;
     background: #bccdfd;
     background-size: cover;
     padding: 40px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
     align-items: center;
     display: grid;
 }
@@ -140,7 +140,7 @@ p.account a:hover{
         border-radius: 0;
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
-        order: 2;
+        order: 0;
     }
     .content{
         order: 1;
