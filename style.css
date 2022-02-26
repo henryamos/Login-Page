@@ -51,7 +51,7 @@ body{
 }
 .form-image{
     flex-basis: 50%;
-    background: #bccdfd;
+    background: #6990fd;
     background-size: cover;
     padding: 40px;
     border-top-left-radius: 8px;
@@ -138,14 +138,14 @@ p.account a:hover{
     }
     .form-image{
         border-radius: 0;
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 8px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
         order: 0;
     }
     .content{
         order: 1;
         border-radius: 0;
-        border-top-right-radius: 8px;
-        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-bottom-right-radius: 8px;
     }
 }
